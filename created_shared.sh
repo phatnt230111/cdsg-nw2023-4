@@ -13,7 +13,9 @@ mkdir /home/nw-4
 mkdir /home/shared
 chown -R NT_Phat:nw-4 /home/nw-4
 chown -R NT_Phat:cdsg /home/shared
+# cap quyen truy cap
 chmod -R 770 /home/nw-4
-chmod -R 755 /home/shared
-
-echo "done"
+# 7 = (4 la viet, 2 la doc, 1 la tuong tac) (4+2+1)
+# 0 = khong co quyen
+chmod -R 733 /home/shared
+# 3 (2+1)
