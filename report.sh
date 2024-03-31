@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Tạo tệp hostname.report với tên máy chủ thực thi chương trình
+touch "${hostname}.report"
+
 # Lấy thời gian hiện tại
 current_time=$(date)
 
